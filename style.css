@@ -1,0 +1,41 @@
+body{
+    background-color: #4CAF50;
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 40px;
+}
+
+.calculator {
+    margin: 0 auto;
+    width: 300px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 5em;
+    border: solid black;
+}
+#result{
+    background-color: grey;
+    color: white;
+    padding: .5em .5em;
+    font-size: 20px;
+}
+
+input[type=button] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
